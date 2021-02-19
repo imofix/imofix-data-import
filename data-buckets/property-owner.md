@@ -4,7 +4,6 @@
 
 | Field | Description | Type | Example(s) |
 | --- | --- | --- | --- |
-| `id` | **REQUIRED**. ID to uniquely identify the owner | `string` | `bc0a5c52-8484-4b49-bfa3-901399b6a871` |
 | `name` | **REQUIRED**. Name of the owner | `string` | `imofix.io` |
 | `address` |  | `string` | `Zürcherstrasse 137d` |
 | `zip` | **REQUIRED** | `int` | `8952` |

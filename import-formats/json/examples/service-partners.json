@@ -8,6 +8,7 @@
     "country": "CH",
     "email": "info@schreiner48.ch",
     "phone": "+41 12 345 67 89",
+    "language": "de",
     "uid": "CHE-300.515.240",
     "crafts": ["carpenter", "window-maker"]
   }

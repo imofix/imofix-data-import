@@ -12,4 +12,5 @@
 | `country` | Code for the country ([ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)) | `string` | `CH` |
 | `email` | **REQUIRED** | `string` | `info@schreiner48.ch` |
 | `phone` |  | `string` | `+41 12 345 67 89` |
+| `language` | The janitor's preferred language | `string` | `en` |
 | `uid` | Enterprise Identification Number ([UID](https://www.bfs.admin.ch/bfs/en/home/registers/enterprise-register/enterprise-identification/uid-general/uid.html)) | `string` | `CHE-300.515.240` |

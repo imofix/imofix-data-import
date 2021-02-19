@@ -1,0 +1,2 @@
+id,name,zip,city,country,type,contract,reference,branch.name,branch.company,branch.address,branch.zip,branch.city,branch.country,branch.email,branch.phone,owner.name,owner.address,owner.zip,owner.city,owner.country,owner.email,owner.phone,owner.uid
+7e629e45-c6e7-4dc8-b8e5-c37f4cba91e1,Überbauung Immergrün,8952,Schlieren,CH,residential,tech,41145,Filiale Zürich,imofix.io,Bahnhofstrasse 1,8000,Zürich,CH,info@imofix.io,+41 12 345 67 89,imofix.io,Zürcherstrasse 137d,8952,Schlieren,CH,info@schreiner48.ch,+41 12 345 67 89,CHE-300.515.240

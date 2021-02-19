@@ -12,5 +12,6 @@
 | `country` | Code for the country ([ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)) | `string` | `CH` |
 | `email` | **REQUIRED** | `string` | `info@schreiner48.ch` |
 | `phone` |  | `string` | `+41 12 345 67 89` |
+| `language` | The service partner's preferred language | `string` | `en` |
 | `uid` | Enterprise Identification Number ([UID](https://www.bfs.admin.ch/bfs/en/home/registers/enterprise-register/enterprise-identification/uid-general/uid.html)) | `string` | `CHE-300.515.240` |
 | `crafts` | Codes of the crafts the service partner is able to provide services for. | `[string]` | `[carpenter]`, `[35]`, `[78104660-fa22-4b17-a6de-5db3f8cddb70]` |
