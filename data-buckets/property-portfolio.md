@@ -15,6 +15,7 @@
 | `contract` | Code for the property's contract type (service agreement) | `string` | `tech` |
 | `reference` | Reference to display to the facility managers | `string` | `41145` |
 | `contractors` | List of the preferred contractors (service partners) | [[Property Contractor](#property-contractor)] |  |
+| `janitors` | List of the property's janitors | [[Property Janitor](#property-janitor)] |  |
 
 ## House
 
@@ -28,6 +29,7 @@
 | `type` | Code for house's type (to differentiate types of buildings) | `string` | `01`, `parking` |
 | `reference` | Reference to display to the facility managers | `string` | `41145.01` |
 | `egid` | Swiss EGID ([Gebäudeidentifikator](https://www.bfs.admin.ch/bfs/de/home/register/personenregister/registerharmonisierung/egid-ewid.html)) | `int` | `190630248` |
+| `janitors` | List of the house's janitors | [[Janitor](janitor.md#janitor)] |  |
 
 ## Unit
 
@@ -45,5 +47,12 @@
 
 | Field | Description | Type | Example(s) |
 | --- | --- | --- | --- |
-| `service_partner` |  | [[Service Partner](service-partner.md#service-partner)] |  |
+| `service_partner` |  | [Service Partner](service-partner.md#service-partner) |  |
 | `crafts` | Crafts for which the service partner is the preferred contractor. | [[Craft](service-partner.md#craft)] |  |
+
+## Property Janitor
+
+| Field | Description | Type | Example(s) |
+| --- | --- | --- | --- |
+| `janitor` |  | [Janitor](janitor.md#janitor) |  |
+| `main` | Is the janitor the main one? | `bool` | `false` |
