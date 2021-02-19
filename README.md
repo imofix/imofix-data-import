@@ -15,7 +15,7 @@ imofix makes use of the following data:
 | [Property Owner](data-buckets/property-owner.md) | contact data of the property owner | Provide information with orders as relevant invoicing parameter. |
 | [Resident](data-buckets/resident.md) | contact and contract data of renters and owners | Attach unit to inquiry. Validate inquiry requester. |
 
-At the minimum, the data buckets [Property Portfolio](#property-portfolio) and [Facility Management](#facility-management) are required to operate.
+At the minimum, data for the buckets [Property Portfolio](#property-portfolio) and [Facility Management](#facility-management) is required to operate.
 
 ## Data transmission
 
@@ -40,5 +40,5 @@ If you're files are formatted differently, imofix can probably support it as wel
 
 ### Self managed data sheet
 
-The most basic variant it so maintain an Excel file or Google Sheet in the structure defined in [CSV](#csv).
+The most basic variant it so maintain an Excel file or Google Sheet in the structure defined in [CSV](import-formats/csv.md).
 In this variant, updating the data is a manual process. Please get in touch to discuss the details.

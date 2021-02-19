@@ -14,6 +14,7 @@
 | `type` | Code for the property's type | `string` | `residential`, `commercial` |
 | `contract` | Code for the property's contract type (service agreement) | `string` | `tech` |
 | `reference` | Reference to display to the facility managers | `string` | `41145` |
+| `contractors` | List of the preferred contractors (service partners) | [[Property Contractor](#property-contractor)] |  |
 
 ## House
 
@@ -39,3 +40,10 @@
 | `reference` | Reference to display to the facility managers | `string` | `41145.01.01` |
 | `ewid` | Swiss EWID ([Wohnungsidentifikator ](https://www.bfs.admin.ch/bfs/de/home/register/personenregister/registerharmonisierung/egid-ewid.html)) | `int` | `13` |
 | `residents` | List of residents living in the unit | [[Resident](resident.md#resident)]  |  |
+
+## Property Contractor
+
+| Field | Description | Type | Example(s) |
+| --- | --- | --- | --- |
+| `service_partner` |  | [[Service Partner](service-partner.md#service-partner)] |  |
+| `crafts` | Crafts for which the service partner is the preferred contractor. | [[Craft](service-partner.md#craft)] |  |
