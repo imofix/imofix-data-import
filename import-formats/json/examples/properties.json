@@ -1,0 +1,109 @@
+[
+  {
+    "id": "7e629e45-c6e7-4dc8-b8e5-c37f4cba91e1",
+    "name": "Überbauung Immergrün",
+    "zip": 8952,
+    "city": "Schlieren",
+    "country": "CH",
+    "houses": [
+      {
+        "id": "3aef9a13-6dba-4be8-8f09-57ebf3ad71c3",
+        "address": "Zürcherstrasse 137d",
+        "zip": 8952,
+        "city": "Schlieren",
+        "country": "CH",
+        "units": [
+          {
+            "id": "1d329098-cb16-4cbb-95b2-e5961ffa2537",
+            "floor": "EG",
+            "size": "3.5",
+            "type": "flat",
+            "reference": "41145.01.01",
+            "ewid": "13",
+            "residents": [
+              {
+                "id": "1765f98e-5f14-4d6f-ba58-00044ffae3ee",
+                "name": "Han Solo",
+                "address": "Zürcherstrasse 137d",
+                "zip": 8952,
+                "city": "Schlieren",
+                "country": "CH",
+                "email": "han@mill-falcon.com",
+                "phone": "+41 12 345 67 89",
+                "language": "en"
+              }
+            ]
+          }
+        ],
+        "type": "parking",
+        "reference": "41145.01",
+        "egid": 190630248,
+        "janitors": [
+          "4fc4847d-469d-42a1-9cde-d6f13e7341c4"
+        ],
+        "elevator": true
+      }
+    ],
+    "contacts": [
+      {
+        "first_name": "Luke",
+        "last_name": "Skywalker",
+        "gender": "male",
+        "email": "luke@jedi.org",
+        "phone": "+41 12 345 67 89",
+        "language": "en",
+        "roles": [
+          "assistant",
+          "deputy"
+        ]
+      },
+      {
+        "first_name": "Leia",
+        "last_name": "Organa",
+        "gender": "female",
+        "email": "leia@the-resistence.org",
+        "phone": "+41 12 345 67 89",
+        "language": "en",
+        "roles": [
+          "manager"
+        ]
+      }
+    ],
+    "branch": {
+      "name": "Filiale Zürich",
+      "company": "imofix.io",
+      "address": "Bahnhofstrasse 1",
+      "zip": 8000,
+      "city": "Zürich",
+      "country": "CH",
+      "email": "info@imofix.io",
+      "phone": "+41 12 345 67 89"
+    },
+    "type": "residential",
+    "contract": "tech",
+    "reference": "41145",
+    "contractors": [
+      {
+        "service_partner": "e57836f3-308a-4ba2-b394-1dddcce92ed9",
+        "crafts": ["carpenter"]
+      }
+    ],
+    "janitors": [
+      {
+        "janitor": "4fc4847d-469d-42a1-9cde-d6f13e7341c4",
+        "main": false
+      }
+    ],
+    "owner": {
+      "id": "bc0a5c52-8484-4b49-bfa3-901399b6a871",
+      "name": "imofix.io",
+      "address": "Zürcherstrasse 137d",
+      "zip": 8952,
+      "city": "Schlieren",
+      "country": "CH",
+      "email": "info@schreiner48.ch",
+      "phone": "+41 12 345 67 89",
+      "uid": "CHE-300.515.240"
+    }
+  }
+]

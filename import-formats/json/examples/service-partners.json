@@ -1,0 +1,14 @@
+[
+  {
+    "id": "4fc4847d-469d-42a1-9cde-d6f13e7341c4",
+    "name": "Schreiner48 AG",
+    "address": "Zürcherstrasse 137d",
+    "zip": 8952,
+    "city": "Schlieren",
+    "country": "CH",
+    "email": "info@schreiner48.ch",
+    "phone": "+41 12 345 67 89",
+    "uid": "CHE-300.515.240",
+    "crafts": ["carpenter", "window-maker"]
+  }
+]

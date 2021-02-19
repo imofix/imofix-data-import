@@ -17,6 +17,7 @@
 | `reference` | Reference to display to the facility managers | `string` | `41145` |
 | `contractors` | List of the preferred contractors (service partners) | [[Property Contractor](#property-contractor)] |  |
 | `janitors` | List of the property's janitors | [[Property Janitor](#property-janitor)] |  |
+| `owner` | The property's owner | [[Property Owner](property-owner.md#property-owner)] |  |
 
 ## House
 
@@ -51,7 +52,7 @@
 | Field | Description | Type | Example(s) |
 | --- | --- | --- | --- |
 | `service_partner` | **REQUIRED** | [Service Partner](service-partner.md#service-partner) |  |
-| `crafts` | Crafts for which the service partner is the preferred contractor. | [[Craft](service-partner.md#craft)] |  |
+| `crafts` | Codes of the crafts for which the service partner is the preferred contractor. | `[string]` | `[carpenter]`, `[35]`, `[78104660-fa22-4b17-a6de-5db3f8cddb70]` |
 
 ## Property Janitor
 
