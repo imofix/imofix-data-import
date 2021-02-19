@@ -8,6 +8,7 @@
 | `name` | **REQUIRED**. Name of the property | `string` | `Überbauung Immergrün` |
 | `zip` | **REQUIRED** | `int` | `8952` |
 | `city` | **REQUIRED** | `string` | `Schlieren` |
+| `country` | Code for the country ([ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)) | `string` | `CH` |
 | `houses` | **REQUIRED**. List of the property's houses | [[House](#house)] |  |
 | `managers` | **REQUIRED**. List of the persons responsible for the property | [[Property Manager](facility-management.md#property-manager)] |  |
 | `branch` | Branch office managing the property | [Branch](facility-management.md#branch) |  |
@@ -25,6 +26,7 @@
 | `address` | **REQUIRED** | `string` | `Zürcherstrasse 137d` |
 | `zip` | **REQUIRED** | `int` | `8952` |
 | `city` | **REQUIRED** | `string` | `Schlieren` |
+| `country` | Code for the country ([ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)) | `string` | `CH` |
 | `units` | List of the house's units | [[Unit](#unit)] |  |
 | `type` | Code for house's type (to differentiate types of buildings) | `string` | `01`, `parking` |
 | `reference` | Reference to display to the facility managers | `string` | `41145.01` |
@@ -47,12 +49,12 @@
 
 | Field | Description | Type | Example(s) |
 | --- | --- | --- | --- |
-| `service_partner` |  | [Service Partner](service-partner.md#service-partner) |  |
+| `service_partner` | **REQUIRED** | [Service Partner](service-partner.md#service-partner) |  |
 | `crafts` | Crafts for which the service partner is the preferred contractor. | [[Craft](service-partner.md#craft)] |  |
 
 ## Property Janitor
 
 | Field | Description | Type | Example(s) |
 | --- | --- | --- | --- |
-| `janitor` |  | [Janitor](janitor.md#janitor) |  |
+| `janitor` | **REQUIRED** | [Janitor](janitor.md#janitor) |  |
 | `main` | Is the janitor the main one? | `bool` | `false` |
