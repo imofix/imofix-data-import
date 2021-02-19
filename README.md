@@ -7,7 +7,7 @@ This gives an overview of how to provide [imofix](https://imofix.io) with the da
 imofix makes use of the following data:
 
 | Bucket | Content (extract) | Intended use |
-| ------------- | ------------- | ----- |
+| --- | --- | --- |
 | [Property Portfolio](data-buckets/property-portfolio.md) | property, house, unit | Match inquiry to property/house/unit. |
 | [Facility Management](data-buckets/facility-management.md) | contact data of involved employees (e.g. assistant, manager) | Assign inquiry to responsible person. |
 | [Service Partner](data-buckets/servce-partner.md) | branch and contact data of service partner | Place orders with service partners (craftsmen, etc.). |
@@ -40,5 +40,5 @@ If you're files are formatted differently, imofix can probably support it as wel
 
 ### Self managed data sheet
 
-The most basic variant it so maintain an Excel file or Google Sheet in the structure defined in [CSV][#csv].
+The most basic variant it so maintain an Excel file or Google Sheet in the structure defined in [CSV](#csv).
 In this variant, updating the data is a manual process. Please get in touch to discuss the details.
