@@ -32,6 +32,7 @@
 | `reference` | Reference to display to the facility managers | `string` | `41145.01` |
 | `egid` | Swiss EGID ([Gebäudeidentifikator](https://www.bfs.admin.ch/bfs/de/home/register/personenregister/registerharmonisierung/egid-ewid.html)) | `int` | `190630248` |
 | `janitors` | List of the house's janitors | [[Janitor](janitor.md#janitor)] |  |
+| `elevator` | Has the house an elevator? | `bool` | `true` |
 
 ## Unit
 
