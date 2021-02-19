@@ -10,7 +10,7 @@
 | `city` | **REQUIRED** | `string` | `Schlieren` |
 | `country` | Code for the country ([ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)) | `string` | `CH` |
 | `houses` | **REQUIRED**. List of the property's houses | [[House](#house)] |  |
-| `managers` | **REQUIRED**. List of the persons responsible for the property | [[Property Manager](facility-management.md#property-manager)] |  |
+| `contacts` | **REQUIRED**. List of the persons responsible for the property | [[Property Contact](facility-management.md#property-contact)] |  |
 | `branch` | Branch office managing the property | [Branch](facility-management.md#branch) |  |
 | `type` | Code for the property's type | `string` | `residential`, `commercial` |
 | `contract` | Code for the property's contract type (service agreement) | `string` | `tech` |

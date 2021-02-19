@@ -1,6 +1,6 @@
 # Facility Management data bucket
 
-## Property Manager
+## Property Contact
 
 | Field | Description | Type | Example(s) |
 | --- | --- | --- | --- |
@@ -10,6 +10,14 @@
 | `email` | **REQUIRED** | `string` | `luke@jedi.org` |
 | `phone` |  | `string` | `+41 12 345 67 89` |
 | `language` | The person's preferred language | `string` | `en` |
+| `roles` | The person's roles (for the given property) | [[Role](#role)] |  |
+
+## Role
+
+| Field | Description | Type | Example(s) |
+| --- | --- | --- | --- |
+| `id` | **REQUIRED** | `string` | `assistant` |
+| `name` | **REQUIRED** | `string` | `Assistent/-in` |
 
 ## Branch
 
