@@ -10,7 +10,7 @@ imofix makes use of the following data:
 | --- | --- | --- |
 | [Property Portfolio](data-buckets/property-portfolio.md) | property, house, unit | Match inquiry to property/house/unit. |
 | [Facility Management](data-buckets/facility-management.md) | contact data of involved employees (e.g. assistant, manager) | Assign inquiry to responsible person. |
-| [Service Partner](data-buckets/servce-partner.md) | branch and contact data of service partner | Place orders with service partners (craftsmen, etc.). |
+| [Service Partner](data-buckets/service-partner.md) | branch and contact data of service partner | Place orders with service partners (craftsmen, etc.). |
 | [Janitor](data-buckets/janitor.md) | contact data of responsible janitor | Inform responsible janitor about relevant inquiries. Provide janitor contact to service partners. |
 | [Property Owner](data-buckets/property-owner.md) | contact data of the property owner | Provide information with orders as relevant invoicing parameter. |
 | [Resident](data-buckets/resident.md) | contact and contract data of renters and owners | Attach unit to inquiry. Validate inquiry requester. |
