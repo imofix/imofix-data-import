@@ -1,2 +1,2 @@
-id,house,floor,size,type,reference,ewid
-1d329098-cb16-4cbb-95b2-e5961ffa2537,3aef9a13-6dba-4be8-8f09-57ebf3ad71c3,EG,3.5,flat,41145.01.01,13
+id,house,floor,size,type,ewid
+41145.01.01,41145.01,EG,3.5,flat,13
