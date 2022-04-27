@@ -35,7 +35,7 @@
 | `floor` | Code for the unit's floor (storey) | `string` | `EG` |
 | `size` | Code for the unit's size | `string` | `3.5` |
 | `type` | Code for the unit's type | `string` | `flat` |
-| `ewid` | Swiss EWID ([Wohnungsidentifikator ](https://www.bfs.admin.ch/bfs/de/home/register/personenregister/registerharmonisierung/egid-ewid.html)) | `int` | `13` |
+| `ewid` | Swiss EWID ([Wohnungsidentifikator](https://www.bfs.admin.ch/bfs/de/home/register/personenregister/registerharmonisierung/egid-ewid.html)) | `int` | `13` |
 | `residents` | List of residents currently living in the unit | [[Person](../shared-types.md#person)]  |  |
 
 ## Property Contact

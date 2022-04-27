@@ -5,9 +5,10 @@ The JSON import supports these files:
 - [properties.csv](examples/properties.csv), required
 - [property-contacts.csv](examples/property-contacts.csv), required
 - [property-contractors.csv](examples/property-contractors.csv), optional
-- [property-janitors.csv](examples/property-contractors.csv), optional
+- [property-janitors.csv](examples/property-janitors.csv), optional
 - [houses.csv](examples/houses.csv), required
 - [units.csv](examples/units.csv), optional
+- [unit-residents.csv](examples/unit-residents.csv), optional
 - [residents.csv](examples/residents.csv), optional
 - [service-partners.csv](examples/service-partners.csv), optional
 - [janitors.csv](examples/janitors.csv), optional
