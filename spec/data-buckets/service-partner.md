@@ -4,12 +4,9 @@
 
 | Field | Description | Type | Example(s) |
 | --- | --- | --- | --- |
-| `id` | **REQUIRED**. ID to uniquely identify the service partner | `string` | `e57836f3-308a-4ba2-b394-1dddcce92ed9` |
+| `id` | **REQUIRED**. ID to uniquely identify the service partner (company) | `string` | `e57836f3-308a-4ba2-b394-1dddcce92ed9` |
 | `name` | **REQUIRED**. Name of the service partner | `string` | `Schreiner48 AG` |
-| `address` | **REQUIRED** | `string` | `Zürcherstrasse 137d` |
-| `zip` | **REQUIRED** | `int` | `8952` |
-| `city` | **REQUIRED** | `string` | `Schlieren` |
-| `country` | Code for the country ([ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)) | `string` | `CH` |
+| `address` | **REQUIRED** | [[Address](../shared-types.md#address)] |  |
 | `email` | **REQUIRED** | `string` | `info@schreiner48.ch` |
 | `phone` |  | `string` | `+41 12 345 67 89` |
 | `language` | The service partner's preferred language | `string` | `en` |
