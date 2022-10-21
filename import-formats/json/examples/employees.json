@@ -1,0 +1,26 @@
+[
+  {
+    "id": "luke",
+    "first_name": "Luke",
+    "last_name": "Skywalker",
+    "email": "luke@jedi.org",
+    "phone": "+41 12 345 67 89",
+    "language": "en"
+  },
+  {
+    "id": "leia",
+    "first_name": "Leia",
+    "last_name": "Organa",
+    "email": "leia@the-resistence.org",
+    "phone": "+41 12 345 67 89",
+    "language": "en"
+  },
+  {
+    "id": "han",
+    "first_name": "Han",
+    "last_name": "Solo",
+    "email": "han@mill-falcon.com",
+    "phone": null,
+    "language": null
+  }
+]
