@@ -38,7 +38,24 @@
 | `ewid` | Swiss EWID ([Wohnungsidentifikator](https://www.bfs.admin.ch/bfs/de/home/register/personenregister/registerharmonisierung/egid-ewid.html)) | `int` | `13` |
 | `residents` | List of residents currently living in the unit | [[Person](../shared-types.md#person)]  |  |
 
-## Property Contact
+## Property Management Team
+
+The property management team can be defined in two ways:
+
+### Property Employee
+
+The preferred way is to provide a (separate) [list of employees](facility-management.md#employee),
+and link properties to employees.
+
+| Field      | Description                                               | Type       | Example(s)                                          |
+|------------|-----------------------------------------------------------|------------|-----------------------------------------------------|
+| `property` | **REQUIRED**                                              | `string`   | `41145`, `7e629e45-c6e7-4dc8-b8e5-c37f4cba91e1`     |
+| `employee` | **REQUIRED**                                              | `string`   | `1`, `0fa9aa66-1803-4376-9211-138527ee17e6`, `luke` |
+| `roles`    | The codes for the person's roles (for the given property) | `[string]` |                                                     |
+
+### Property Contact
+
+Alternatively, it's possible to provide the property contacts directly.
 
 | Field | Description | Type | Example(s) |
 | --- | --- | --- | --- |
@@ -48,6 +65,8 @@
 | `phone` |  | `string` | `+41 12 345 67 89` |
 | `language` | The person's preferred language | `string` | `en` |
 | `roles` | The codes for the person's roles (for the given property) | `[string]` |  |
+
+When both property contacts and employees are provided, employees have precedence.
 
 ## Property Contractor
 

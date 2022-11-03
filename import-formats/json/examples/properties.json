@@ -69,6 +69,21 @@
         ]
       }
     ],
+    "responsible_employees": [
+      {
+        "id": "luke",
+        "roles": [
+          "assistant",
+          "deputy"
+        ]
+      },
+      {
+        "id": "leia",
+        "roles": [
+          "manager"
+        ]
+      }
+    ],
     "owner": {
       "id": "75510f16-ce24-41f9-af7f-05d38d1b48a8",
       "name": "Schreiner48 AG",

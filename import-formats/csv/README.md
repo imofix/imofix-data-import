@@ -3,8 +3,9 @@
 The JSON import supports these files:
 
 - [properties.csv](examples/properties.csv), required
-- [property-contacts.csv](examples/property-contacts.csv), required
+- [property-contacts.csv](examples/property-contacts.csv), optional
 - [property-contractors.csv](examples/property-contractors.csv), optional
+- [property-employees.csv](examples/property-employees.csv), optional, has precedence over `property-contacts.csv`
 - [property-janitors.csv](examples/property-janitors.csv), optional
 - [houses.csv](examples/houses.csv), required
 - [units.csv](examples/units.csv), optional
