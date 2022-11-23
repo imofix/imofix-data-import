@@ -2,6 +2,7 @@
 
 The JSON import supports these files:
 
+- [employees.csv](examples/employees.csv), required when [property-employees.csv](examples/property-employees.csv) is provided.
 - [properties.csv](examples/properties.csv), required
 - [property-contacts.csv](examples/property-contacts.csv), optional
 - [property-contractors.csv](examples/property-contractors.csv), optional
