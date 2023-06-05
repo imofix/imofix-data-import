@@ -2,13 +2,13 @@
 
 ## Service Partner
 
-| Field | Description | Type | Example(s) |
-| --- | --- | --- | --- |
-| `id` | **REQUIRED**. ID to uniquely identify the service partner (company) | `string` | `e57836f3-308a-4ba2-b394-1dddcce92ed9` |
-| `name` | **REQUIRED**. Name of the service partner | `string` | `Schreiner48 AG` |
-| `address` | **REQUIRED** | [[Address](../shared-types.md#address)] |  |
-| `email` | **REQUIRED** | `string` | `info@schreiner48.ch` |
-| `phone` |  | `string` | `+41 12 345 67 89` |
-| `language` | The service partner's preferred language | `string` | `en` |
-| `uid` | Enterprise Identification Number ([UID](https://www.bfs.admin.ch/bfs/en/home/registers/enterprise-register/enterprise-identification/uid-general/uid.html)) | `string` | `CHE-300.515.240` |
-| `crafts` | Codes of the crafts the service partner is able to provide services for. | `[string]` | `[carpenter]`, `[35]`, `[78104660-fa22-4b17-a6de-5db3f8cddb70]` |
+| Field      | Description                                                                                                                                                 | Type                                    | Example(s)                                                      |
+|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-----------------------------------------------------------------|
+| `id`       | **REQUIRED**. ID to uniquely identify the service partner (company)                                                                                         | `string`                                | `e57836f3-308a-4ba2-b394-1dddcce92ed9`                          |
+| `name`     | **REQUIRED**. Name of the service partner                                                                                                                   | `string`                                | `Schreiner48 AG`                                                |
+| `address`  | **REQUIRED**                                                                                                                                                | [[Address](../shared-types.md#address)] |                                                                 |
+| `email`    | **REQUIRED**                                                                                                                                                | `string`                                | `info@schreiner48.ch`                                           |
+| `phone`    |                                                                                                                                                             | `string`                                | `+41 12 345 67 89`                                              |
+| `language` | The service partner's preferred language                                                                                                                    | `string`                                | `en`                                                            |
+| `uid`      | Enterprise Identification Number ([UID](https://www.bfs.admin.ch/bfs/en/home/registers/enterprise-register/enterprise-identification/uid-general/uid.html)) | `string`                                | `CHE-300.515.240`                                               |
+| `crafts`   | Codes of the crafts the service partner is able to provide services for.                                                                                    | `[string]`                              | `[carpenter]`, `[35]`, `[78104660-fa22-4b17-a6de-5db3f8cddb70]` |

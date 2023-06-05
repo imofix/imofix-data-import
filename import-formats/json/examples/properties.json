@@ -1,6 +1,7 @@
 [
   {
     "id": "41145",
+    "number": null,
     "name": "Überbauung Immergrün",
     "zip": "8952",
     "city": "Schlieren",
@@ -8,6 +9,7 @@
     "houses": [
       {
         "id": "41145.01",
+        "number": null,
         "address": {
           "street": "Zürcherstrasse 137d",
           "zip": "8952",
@@ -17,6 +19,7 @@
         "units": [
           {
             "id": "41145.01.01",
+            "number": null,
             "floor": "EG",
             "size": "3.5",
             "type": "flat",

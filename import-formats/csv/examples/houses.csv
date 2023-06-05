@@ -1,2 +1,2 @@
-id,property,address,zip,city,country,type,egid,janitors,elevator
-41145.01,41145,Zürcherstrasse 137d,8952,Schlieren,CH,parking,190630248,4fc4847d-469d-42a1-9cde-d6f13e7341c4,yes
+id,number,property,address,zip,city,country,type,egid,janitors,elevator
+41145.01,,41145,Zürcherstrasse 137d,8952,Schlieren,CH,parking,190630248,4fc4847d-469d-42a1-9cde-d6f13e7341c4,yes
