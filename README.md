@@ -6,11 +6,11 @@ This gives an overview of how to provide [imofix.io](https://imofix.io) with the
 
 imofix.io makes use of the following data (if available):
 
-| Bucket | Content (extract) | Intended use |
-| --- | --- | --- |
-| [Property Portfolio](spec/data-buckets/property-portfolio.md) | property, house, unit | Match inquiry to property/house/unit. |
-| [Service Partner](spec/data-buckets/service-partner.md) | contact data of service partner | Place orders with service partners (craftsmen, etc.). |
-| [Janitor](spec/data-buckets/janitor.md) | contact data of responsible janitor | Inform responsible janitor about relevant inquiries. Provide janitor contact to service partners. |
+| Bucket                                                        | Content (extract)                   | Intended use                                                                                      |
+|---------------------------------------------------------------|-------------------------------------|---------------------------------------------------------------------------------------------------|
+| [Property Portfolio](spec/data-buckets/property-portfolio.md) | property, house, unit               | Match inquiry to property/house/unit.                                                             |
+| [Service Partner](spec/data-buckets/service-partner.md)       | contact data of service partner     | Place orders with service partners (craftsmen, etc.).                                             |
+| [Janitor](spec/data-buckets/janitor.md)                       | contact data of responsible janitor | Inform responsible janitor about relevant inquiries. Provide janitor contact to service partners. |
 
 In the data buckets, there are many fields which allow to provide your codes
 (e.g. `03` as `property.house.type` for a parking garage).

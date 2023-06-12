@@ -1,2 +1,2 @@
-id,name,zip,city,country,owner.id,owner.name,owner.address,owner.zip,owner.city,owner.country,owner.email,owner.phone,owner.language
-41145,Überbauung Immergrün,8952,Schlieren,CH,75510f16-ce24-41f9-af7f-05d38d1b48a8,Schreiner48 AG,Zürcherstrasse 137d,8952,Schlieren,CH,info@schreiner48.ch,+41 12 345 67 89,de
+id,number,name,zip,city,country,owner.id,owner.name,owner.address,owner.zip,owner.city,owner.country,owner.email,owner.phone,owner.language
+41145,,Überbauung Immergrün,8952,Schlieren,CH,75510f16-ce24-41f9-af7f-05d38d1b48a8,Schreiner48 AG,Zürcherstrasse 137d,8952,Schlieren,CH,info@schreiner48.ch,+41 12 345 67 89,de

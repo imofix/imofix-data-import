@@ -1,2 +1,2 @@
-id,house,floor,size,type,ewid
-41145.01.01,41145.01,EG,3.5,flat,13
+id,number,house,floor,size,type,ewid
+41145.01.01,,41145.01,EG,3.5,flat,13
