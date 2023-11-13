@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "valid_from": "2000-01-01",
+        "valid_to": null,
+        "description": "keine MWSt",
+        "percentage": "0.00"
+    },
+    {
+        "id": "10",
+        "valid_from": "2018-01-01",
+        "valid_to": "2023-12-31",
+        "description": "Normalsatz",
+        "percentage": "7.70"
+    },
+    {
+        "id": "10",
+        "valid_from": "2024-01-01",
+        "valid_to": null,
+        "description": "Normalsatz",
+        "percentage": "8.10"
+    },
+    {
+        "id": "12",
+        "valid_from": "2018-01-01",
+        "valid_to": "2023-12-31",
+        "description": "Normalsatz, nur optierter Ant.",
+        "percentage": "7.70"
+    },
+    {
+        "id": "12",
+        "valid_from": "2024-01-01",
+        "valid_to": null,
+        "description": "Normalsatz, nur optierter Ant.",
+        "percentage": "8.10"
+    }
+}

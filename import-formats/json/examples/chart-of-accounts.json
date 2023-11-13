@@ -1,0 +1,81 @@
+[
+    {
+        "property": "10000",
+        "periods": [
+            {
+                "period": "2023",
+                "accounts": [
+                    {
+                        "id": "102001",
+                        "description1": {
+                            "de": "kontobezeichnung"
+                        },
+                        "valid_from": "2022-01-01",
+                        "valid_to": "2022-12-31"
+                    },
+                    {
+                        "id": "102101",
+                        "description1": {
+                            "de": "kontobezeichnung"
+                        },
+                        "valid_from": "2022-01-01",
+                        "valid_to": "2022-12-31"
+                    },
+                    {
+                        "id": "111001",
+                        "description1": {
+                            "de": "Heizmaterialvorrat Anfang Oel"
+                        },
+                        "valid_from": "2022-01-01",
+                        "valid_to": "2022-12-31",
+                        "request_quantity": true,
+                        "unit_quantity": "Liter"
+                    },
+  
+                    {
+                        "id": "113331",
+                        "description1": {
+                            "de": "Betriebskosten Warenlift"
+                        },
+                        "default_taxcode": "10",
+                        "valid_from": "2022-01-01",
+                        "valid_to": "2022-12-31",
+                        "allowed_tax_codes": [
+                            "1",
+                            "10",
+                            "12",
+                            "14",
+                            "15",
+                            "16",
+                            "20",
+                            "22",
+                            "30",
+                            "32",
+                            "44",
+                            "46",
+                            "47",
+                            "48",
+                            "49",
+                            "50",
+                            "52",
+                            "220",
+                            "221",
+                            "225",
+                            "230",
+                            "996",
+                            "997",
+                            "998",
+                            "999",
+                            "25",
+                            "26",
+                            "17",
+                            "18",
+                            "27",
+                            "28"
+                        ]
+                    }
+            }
+            
+    }
+    
+}
