@@ -108,6 +108,7 @@
         "janitor": "4fc4847d-469d-42a1-9cde-d6f13e7341c4",
         "main": false
       }
-    ]
+    ],
+    "order_credit_limit": 1000
   }
 ]

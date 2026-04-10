@@ -2,18 +2,19 @@
 
 ## Property
 
-| Field         | Description                                                                                    | Type                                                          | Example(s)                                      |
-|---------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------------|-------------------------------------------------|
-| `id`          | **REQUIRED**. ID to uniquely identify the property                                             | `string`                                                      | `41145`, `7e629e45-c6e7-4dc8-b8e5-c37f4cba91e1` |
-| `name`        | **REQUIRED**. Name of the property                                                             | `string`                                                      | `Überbauung Immergrün`                          |
-| `zip`         | **REQUIRED**                                                                                   | `string`                                                      | `8952`                                          |
-| `city`        | **REQUIRED**                                                                                   | `string`                                                      | `Schlieren`                                     |
-| `country`     | Code for the country ([ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2))  | `string`                                                      | `CH`                                            |
-| `houses`      | **REQUIRED**. List of the property's houses                                                    | [[House](#house)]                                             |                                                 |
-| `contacts`    | **REQUIRED**. List of the persons responsible for the property                                 | [[Property Contact](facility-management.md#property-contact)] |                                                 |
-| `owner`       | The property's owner                                                                           | [[Person](../shared-types.md#person)]                         |                                                 |
-| `contractors` | List of the preferred contractors (service partners)                                           | [[Property Contractor](#property-contractor)]                 |                                                 |
-| `janitors`    | List of the property's janitors                                                                | [[Property Janitor](#property-janitor)]                       |                                                 |
+| Field                | Description                                                                                   | Type                                                          | Example(s)                                      |
+|----------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------------------------|-------------------------------------------------|
+| `id`                 | **REQUIRED**. ID to uniquely identify the property                                            | `string`                                                      | `41145`, `7e629e45-c6e7-4dc8-b8e5-c37f4cba91e1` |
+| `name`               | **REQUIRED**. Name of the property                                                            | `string`                                                      | `Überbauung Immergrün`                          |
+| `zip`                | **REQUIRED**                                                                                  | `string`                                                      | `8952`                                          |
+| `city`               | **REQUIRED**                                                                                  | `string`                                                      | `Schlieren`                                     |
+| `country`            | Code for the country ([ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)) | `string`                                                      | `CH`                                            |
+| `houses`             | **REQUIRED**. List of the property's houses                                                   | [[House](#house)]                                             |                                                 |
+| `contacts`           | **REQUIRED**. List of the persons responsible for the property                                | [[Property Contact](facility-management.md#property-contact)] |                                                 |
+| `owner`              | The property's owner                                                                          | [[Person](../shared-types.md#person)]                         |                                                 |
+| `contractors`        | List of the preferred contractors (service partners)                                          | [[Property Contractor](#property-contractor)]                 |                                                 |
+| `janitors`           | List of the property's janitors                                                               | [[Property Janitor](#property-janitor)]                       |                                                 |
+| `order_credit_limit` | Credit limit for order                                                                        | `int`                                                         | `1000`                                          |
 
 ## House
 
