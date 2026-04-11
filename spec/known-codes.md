@@ -31,3 +31,10 @@ We know the following codes, which, when used, are backed by predefined texts in
 - `basement`
 - `ground-floor`
 - `mezzanine-floor`
+
+## Employee Roles
+
+- `assistant`
+- `manager`
+- `supervisor`
+- `deputy`
