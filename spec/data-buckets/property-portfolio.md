@@ -15,6 +15,7 @@
 | `contractors`        | List of the preferred contractors (service partners)                                          | [[Property Contractor](#property-contractor)]                 |                                                 |
 | `janitors`           | List of the property's janitors                                                               | [[Property Janitor](#property-janitor)]                       |                                                 |
 | `order_credit_limit` | Credit limit for order                                                                        | `int`                                                         | `1000`                                          |
+| `imofix_fee`         | How imofix should charge for orders. Defaults to `forwarding-fee`.                            | `"forwarding-fee" \| "non-forwarding-fee" \| "no-fee"`        | `forwarding-fee`                                |
 
 ## House
 

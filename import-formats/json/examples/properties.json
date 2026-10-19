@@ -109,6 +109,7 @@
         "main": false
       }
     ],
-    "order_credit_limit": 1000
+    "order_credit_limit": 1000,
+    "imofix_fee": "forwarding-fee"
   }
 ]
