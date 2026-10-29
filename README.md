@@ -41,7 +41,7 @@ If your files are formatted differently, imofix.io can probably support it as we
 
 Most means of transferring files are supported (your publicly accessible FTP server, a Google Cloud Storage bucket provided by imofix.io, etc.).
 
-### Self managed data sheet
+### Self-managed data sheet
 
 The most basic variant is to maintain an Excel file or Google Sheet in the structure defined in [CSV](import-formats/csv).
 In this variant, updating the data is a manual process. Please get in touch to discuss the details.
